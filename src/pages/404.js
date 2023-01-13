@@ -24,6 +24,7 @@ const codeStyles = {
 }
 
 const NotFoundPage = () => {
+  console.log("This is the 404 page");
   return (
     <main style={pageStyles}>
       <h1 style={headingStyles}>Page not found</h1>
